@@ -1,0 +1,299 @@
+/* line 5, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+/* line 22, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 6, ../scss/style.scss */
+body {
+  font-family: 'Roboto', sans-serif;
+  color: #FFF;
+  font-weight: 300;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 12, ../scss/style.scss */
+.sitettl {
+  text-align: center;
+  font-size: 2em;
+  padding: 1em;
+  font-weight: 700;
+  text-transform: uppercase; }
+
+/* line 19, ../scss/style.scss */
+#page {
+  margin: 0 auto;
+  background-color: #10af18;
+  position: relative; }
+  @media (max-width: 1019px) {
+    /* line 19, ../scss/style.scss */
+    #page {
+      width: 100%;
+      min-height: 620px; } }
+  @media (min-width: 1020px) {
+    /* line 19, ../scss/style.scss */
+    #page {
+      width: 900px;
+      min-height: 900px; } }
+
+/* line 32, ../scss/style.scss */
+#daumgoogle_generator {
+  width: 85%;
+  margin: 0 auto;
+  padding: 2vw; }
+  /* line 36, ../scss/style.scss */
+  #daumgoogle_generator fieldset {
+    padding: 0 0 2vw; }
+    /* line 38, ../scss/style.scss */
+    #daumgoogle_generator fieldset .pForm {
+      margin-bottom: 2em;
+      overflow: hidden;
+      *zoom: 1; }
+    /* line 42, ../scss/style.scss */
+    #daumgoogle_generator fieldset .radiowrap {
+      display: inline-block;
+      position: relative; }
+      @media (max-width: 1019px) {
+        /* line 42, ../scss/style.scss */
+        #daumgoogle_generator fieldset .radiowrap {
+          margin-right: 1vw; } }
+      @media (min-width: 1020px) {
+        /* line 42, ../scss/style.scss */
+        #daumgoogle_generator fieldset .radiowrap {
+          margin-right: 3vw; } }
+      /* line 51, ../scss/style.scss */
+      #daumgoogle_generator fieldset .radiowrap input {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: -6px 0 0 -6px; }
+      /* line 57, ../scss/style.scss */
+      #daumgoogle_generator fieldset .radiowrap label {
+        text-indent: -9999em;
+        display: block; }
+        @media (max-width: 1019px) {
+          /* line 57, ../scss/style.scss */
+          #daumgoogle_generator fieldset .radiowrap label {
+            width: 18vw;
+            height: 18vw; } }
+        @media (min-width: 1020px) {
+          /* line 57, ../scss/style.scss */
+          #daumgoogle_generator fieldset .radiowrap label {
+            width: 5vw;
+            height: 5vw; } }
+        /* line 68, ../scss/style.scss */
+        #daumgoogle_generator fieldset .radiowrap label.cor_vermelho {
+          background-color: #e45555; }
+        /* line 71, ../scss/style.scss */
+        #daumgoogle_generator fieldset .radiowrap label.cor_verde {
+          background-color: #0eb535; }
+        /* line 74, ../scss/style.scss */
+        #daumgoogle_generator fieldset .radiowrap label.cor_azul {
+          background-color: #0e81e2; }
+        /* line 77, ../scss/style.scss */
+        #daumgoogle_generator fieldset .radiowrap label.cor_amarelo {
+          background-color: #e4d706; }
+  /* line 83, ../scss/style.scss */
+  #daumgoogle_generator label {
+    font-weight: 400;
+    display: block;
+    margin: 0 0 1em; }
+    @media (max-width: 1019px) {
+      /* line 83, ../scss/style.scss */
+      #daumgoogle_generator label {
+        font-size: 5vw; } }
+    @media (min-width: 1020px) {
+      /* line 83, ../scss/style.scss */
+      #daumgoogle_generator label {
+        font-size: 2vw; } }
+  /* line 94, ../scss/style.scss */
+  #daumgoogle_generator input[type="text"] {
+    display: block;
+    border: 1px solid #FFF;
+    color: #999;
+    padding: 0.5em;
+    width: 95%; }
+    @media (max-width: 1019px) {
+      /* line 94, ../scss/style.scss */
+      #daumgoogle_generator input[type="text"] {
+        font-size: 5vw; } }
+    @media (min-width: 1020px) {
+      /* line 94, ../scss/style.scss */
+      #daumgoogle_generator input[type="text"] {
+        font-size: 1em; } }
+  /* line 107, ../scss/style.scss */
+  #daumgoogle_generator input[type="submit"] {
+    font-weight: 700;
+    text-transform: uppercase; }
+    @media (max-width: 1019px) {
+      /* line 107, ../scss/style.scss */
+      #daumgoogle_generator input[type="submit"] {
+        font-size: 10vw;
+        margin: 4vw auto; } }
+    @media (min-width: 1020px) {
+      /* line 107, ../scss/style.scss */
+      #daumgoogle_generator input[type="submit"] {
+        height: 3vw;
+        width: 10vw; } }
+
+/* line 120, ../scss/style.scss */
+#googlewrap {
+  width: 80%;
+  padding: 2em 0;
+  margin: 0 auto; }
+  /* line 124, ../scss/style.scss */
+  #googlewrap .lupa {
+    display: block;
+    float: left;
+    height: 0.85em;
+    width: auto;
+    margin: 0.2em 0.2em 0 0; }
+  /* line 131, ../scss/style.scss */
+  #googlewrap #text {
+    line-height: 1.2; }
+    @media (max-width: 1019px) {
+      /* line 131, ../scss/style.scss */
+      #googlewrap #text {
+        font-size: 12vw; } }
+    @media (min-width: 1020px) {
+      /* line 131, ../scss/style.scss */
+      #googlewrap #text {
+        font-size: 5em; } }
+    /* line 139, ../scss/style.scss */
+    #googlewrap #text strong {
+      opacity: 0.6; }
+
+/* line 144, ../scss/style.scss */
+#daumgoogle {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  margin-left: -10vw; }
+  /* line 149, ../scss/style.scss */
+  #daumgoogle .imgw {
+    width: 13vw;
+    height: 13vw;
+    background-color: #fff;
+    border-radius: 100%;
+    margin: 0 auto 2vw;
+    text-align: center; }
+  /* line 157, ../scss/style.scss */
+  #daumgoogle .glogo {
+    width: 13vw;
+    height: 13vw; }
+  /* line 161, ../scss/style.scss */
+  #daumgoogle .d_daumgoogle {
+    font-size: 3vw;
+    text-align: center; }
+
+/* line 166, ../scss/style.scss */
+.centerwrap {
+  text-align: center; }
+  /* line 168, ../scss/style.scss */
+  .centerwrap.links {
+    margin: 2em auto; }
+    /* line 170, ../scss/style.scss */
+    .centerwrap.links a {
+      display: inline-block;
+      background-color: #0eb535;
+      color: #FFF;
+      padding: 1em;
+      cursor: pointer;
+      text-transform: uppercase;
+      text-decoration: none;
+      margin-left: 1vw; }
+      @media (max-width: 1019px) {
+        /* line 170, ../scss/style.scss */
+        .centerwrap.links a {
+          font-size: 3vw; } }
+      @media (min-width: 1020px) {
+        /* line 170, ../scss/style.scss */
+        .centerwrap.links a {
+          font-size: 2em;
+          margin: 2em auto; } }
+      @media (max-width: 1019px) {
+        /* line 186, ../scss/style.scss */
+        .centerwrap.links a.voltar {
+          font-size: 5vw; } }
+  @media (max-width: 1019px) {
+    /* line 193, ../scss/style.scss */
+    .centerwrap #gerarImagem {
+      display: none; } }
+  @media (min-width: 1020px) {
+    /* line 193, ../scss/style.scss */
+    .centerwrap #gerarImagem {
+      font-size: 2em;
+      margin: 2em auto; } }
+
+/* line 204, ../scss/style.scss */
+.fb, .gads {
+  padding: 2em;
+  text-align: center; }
+
+/* line 209, ../scss/style.scss */
+.fb .share-button {
+  display: inline-block;
+  background: #365899;
+  color: #FFF;
+  text-decoration: none;
+  font-weight: 700;
+  padding: 1em; }
+  @media (max-width: 1019px) {
+    /* line 209, ../scss/style.scss */
+    .fb .share-button {
+      font-size: 5vw; } }
+  @media (min-width: 1020px) {
+    /* line 209, ../scss/style.scss */
+    .fb .share-button {
+      font-size: 2em; } }
